@@ -1,0 +1,26 @@
+[
+   {
+      "name":"Chevrolet Chevelle Malibu",
+      "year":"1970-01-01",
+      "origin":"USA",
+      "email":"www.chevrolet.com",
+      "image": "chevy-chevelle.jpg",
+      "id":1
+   },
+   {
+      "name":"Toyota Corolla 1200",
+      "year":"1971-01-01",
+      "origin":"Japan",
+      "email":"www.toyota.com",
+      "image": "toyota-corolla.jpg",
+      "id":2
+   },
+   {
+      "name":"Volkswagen Model 111",
+      "year":"1971-01-01",
+      "origin":"Europe",
+      "email":"www.volkswagen.com",
+     "image": "volkswagen.jpg",
+      "id":3
+   }
+]
