@@ -4691,6 +4691,11 @@
     "@types/istanbul-lib-coverage" "^2.0.1"
     "convert-source-map" "^1.6.0"
 
+"vue-runtime-helpers@^1.1.2":
+  "integrity" "sha512-pZfGp+PW/IXEOyETE09xQHR1CKkR9HfHZdnMD/FVLUNI+HxYTa82evx5WrF6Kz4s82qtqHvMZ8MZpbk2zT2E1Q=="
+  "resolved" "https://registry.npmjs.org/vue-runtime-helpers/-/vue-runtime-helpers-1.1.2.tgz"
+  "version" "1.1.2"
+
 "w3c-hr-time@^1.0.2":
   "integrity" "sha512-z8P5DvDNjKDoFIHK7q8r8lackT6l+jo/Ye3HOle7l9nICP9lf1Ci25fy9vHd0JOWewkIFzXIEig3TdKT7JQ5fQ=="
   "resolved" "https://registry.npmjs.org/w3c-hr-time/-/w3c-hr-time-1.0.2.tgz"

@@ -1,12 +1,11 @@
 import Head from 'next/head';
-import Link from 'next/link';
-import Image from 'next/image';
 import Layout from '../components/layout';
 import { getAllIds, getData } from '../lib/data';
+import Link from 'next/link';
+import Image from 'next/image';
 
 export async function getStaticProps({ params }) {
   const itemData = await getData(params.id);
-  // console.log(itemData);
   return {
     props: {
       itemData
@@ -44,7 +43,7 @@ export default function Entry({ itemData }) {
           <a href={'mailto:' + itemData.email} className="card-link">{itemData.email}</a>
         </div>
       </article>
-      {/* render details about all other entities in persons.json related to id */}
+      {/* render details about all other entities in cars.json related to id */}
       <div className="list-group col-6">
         {/* check for existence of itemData.related property */}
         {itemData.related ? 
@@ -60,7 +59,6 @@ export default function Entry({ itemData }) {
           )
           : null
         }
-        {/* using expression ? ... : null */}
       </div>
     </Layout>
   );
