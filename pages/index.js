@@ -15,7 +15,7 @@ export async function getStaticProps() {
 export default function Home({ allData }) {
   return (
       <Layout home>
-        <h1>The 70's Cars</h1>
+        <h1>The 70s Cars</h1>
         <p><img src="/vintage.jpeg" className = "img-fluid" alt="vintage car"/></p>
         <div className="list-group">
           {allData ?
