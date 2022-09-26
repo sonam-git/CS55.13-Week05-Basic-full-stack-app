@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Layout from '../components/layout';
 import { getSortedList } from '../lib/data';
+import Image from 'next/image';
 
 
 export async function getStaticProps() {

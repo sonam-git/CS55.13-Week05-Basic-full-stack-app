@@ -16,15 +16,3 @@ describe('Home', () => {
     expect(heading).toBeInTheDocument()
   })
 })
-
-describe('Home', () => {
-  it('renders a heading', () => {
-    render(<Home />)
-
-    const heading = screen.getByRole('heading', {
-      name: /The 70's Cars/i,
-    })
-
-    expect(heading).toBeInTheDocument()
-  })
-})
